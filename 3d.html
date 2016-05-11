@@ -1,0 +1,28 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<style type="text/css">
+    iframe{
+        width: 300px;
+        height: 400px;
+        background: pink;
+    }
+</style>
+
+    <title>eee</title>
+</head>
+<body>
+<iframe name="frame1"src="w.html" contenteditable="true"></iframe>
+<script type="text/javascript">
+alert("12");
+
+        f=document.getElementsByTagName("iframe")[0];
+        f.document.designMode="on";
+    //     f.document.designMode='on';
+</script>
+</body>
+</html>
